@@ -25,7 +25,6 @@ namespace MidiMania
 
         private void parseNotes()
         {
-
             foreach (var note in mf.GetNotes())
             {
                 notes.Add(note);
